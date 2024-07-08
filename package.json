@@ -5,7 +5,8 @@
   "main": "src/app.ts",
   "scripts": {
     "test": "jest --forceExit",
-    "start": "ts-node-dev --respawn --transpile-only ./src/app"
+    "start": "ts-node-dev --respawn --transpile-only ./src/app",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
